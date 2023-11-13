@@ -50,12 +50,6 @@ export default function Home() {
           </motion.div>
         </div>
       </main>
-      <div className='bg-bodyColor text-center text-textLight text-xs py-3'>
-        Design inspired by{' '}
-        <a href='https://github.com/bchiang7' className='text-textGreen'>
-          Brittany Chiang
-        </a>
-      </div>
     </>
   )
 }
