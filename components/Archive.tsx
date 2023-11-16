@@ -171,14 +171,14 @@ const Archive = () => {
         {showMore ? (
           <button
             onClick={() => setShowMore(false)}
-            className='w-36 h-12  text-textLight text-[13px] border-2 border-textGreen hover:bg-hoverColor duration-300'
+            className='w-36 h-12  text-textLight text-[13px] border-2 border-textGreen hover:bg-hoverColor hover:text-bodyColor duration-300'
           >
             Show Less
           </button>
         ) : (
           <button
             onClick={() => setShowMore(true)}
-            className='w-36 h-12  text-textLight text-[13px] border-2 border-textGreen hover:bg-hoverColor duration-300'
+            className='w-36 h-12  text-textLight text-[13px] border-2 border-textGreen hover:bg-hoverColor hover:text-bodyColor duration-300'
           >
             Show More
           </button>

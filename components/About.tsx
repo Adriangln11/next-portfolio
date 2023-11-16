@@ -51,7 +51,7 @@ const About = () => {
         </div>
         <div className=' text-sm font-titleFont grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mt-6 '>
           <div className=' h-100 w-100 grid  place-items-center  content-start'>
-            <span className='w-20 h-20 text-textDark grid place-content-center text-5xl m-3'>
+            <span className='w-20 h-20 text-textGreen grid place-content-center text-5xl m-3'>
               <BiCodeCurly />{' '}
             </span>
             <h4 className='text-textLeight text-center text-2xl'>Languages</h4>
@@ -95,7 +95,7 @@ const About = () => {
             </ul>
           </div>
           <div className=' h-100 w-100 grid  content-start place-items-center  '>
-            <span className='w-20 h-20 text-textDark grid place-content-center text-5xl m-3'>
+            <span className='w-20 h-20 text-textGreen grid place-content-center text-5xl m-3'>
               <BiSolidExtension />{' '}
             </span>
             <h4 className='text-textLeight text-center text-2xl'>Frameworks</h4>
@@ -139,7 +139,7 @@ const About = () => {
             </ul>
           </div>
           <div className=' h-100 w-100 grid place-items-center  content-start'>
-            <span className='w-20 h-20 text-textDark grid place-content-center text-5xl m-3'>
+            <span className='w-20 h-20 text-textGreen grid place-content-center text-5xl m-3'>
               <FaTools />{' '}
             </span>
             <h4 className=' text-center text-2xl'>Tools</h4>

@@ -3,8 +3,7 @@ import { logo } from '@/public/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import { TbBrandGithub } from 'react-icons/tb'
-import { SlSocialLinkedin } from 'react-icons/sl'
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { MdOutlineClose } from 'react-icons/md'
 import { motion } from 'framer-motion'
 
@@ -128,7 +127,7 @@ const Navbar = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
-              className='px-4 py-2  text-textLight text-[13px] border-2 border-textGreen hover:bg-hoverColor hover:text-textLight duration-300'
+              className='px-4 py-2  text-textLight text-[13px] border-2 border-textGreen hover:bg-hoverColor hover:text-bodyColor duration-300'
             >
               Download CV
             </motion.button>
@@ -153,7 +152,7 @@ const Navbar = () => {
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className='w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative'
+              className='w-[80%] h-full overflow-y-scroll scrollbarHide bg-bodyColor flex flex-col items-center px-4 py-10 relative'
             >
               <MdOutlineClose
                 onClick={() => setShow(false)}
@@ -237,7 +236,7 @@ const Navbar = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.6, ease: 'easeIn' }}
-                    className='w-32 h-10 text-textLight text-[13px] border-2 border-textGreen hover:bg-hoverColor hover:text-textLight transition-colors duration-300'
+                    className='w-32 h-10 text-textLight text-[13px] border-2 border-textGreen hover:bg-hoverColor hover:text-bodyColor transition-colors duration-300'
                   >
                     Download CV
                   </motion.button>
@@ -250,8 +249,8 @@ const Navbar = () => {
                     href='https://github.com/Adriangln11'
                     target='_blank'
                   >
-                    <span className='w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
-                      <TbBrandGithub />
+                    <span className='w-10 h-10 text-xl bg-textGreen border-2 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-bodyColor cursor-pointer hover:-translate-y-2 transition-all duration-300'>
+                      <FaGithub />
                     </span>
                   </motion.a>
 
@@ -262,8 +261,8 @@ const Navbar = () => {
                     href='https://www.linkedin.com/in/adri%C3%A1n-d%C3%ADaz-08738922a/'
                     target='_blank'
                   >
-                    <span className='w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
-                      <SlSocialLinkedin />
+                    <span className='w-10 h-10 text-xl bg-textGreen border-2 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-bodyColor cursor-pointer hover:-translate-y-2 transition-all duration-300'>
+                      <FaLinkedinIn />
                     </span>
                   </motion.a>
                 </div>

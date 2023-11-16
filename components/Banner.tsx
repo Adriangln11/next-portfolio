@@ -43,7 +43,7 @@ const Banner = () => {
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.9 }}
-          className='w-52 h-14 text-sm font-titleFont border-textGreen border-2 text-textLight tracking-wide hover:bg-hoverColor duration-300'
+          className='w-52 h-14 text-sm font-titleFont border-textGreen border-2 text-textLight tracking-wide hover:bg-hoverColor hover:text-bodyColor duration-300'
         >
           Download CV
         </motion.button>
